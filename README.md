@@ -1,16 +1,16 @@
-# 📱 Classification de Spams SMS par Machine Learning
+# Classification de Spams SMS par Machine Learning
 
 > Modèle de détection automatique de contenus malveillants dans des SMS, entraîné sur 5 500 messages réels.
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 Construire un classifieur capable de distinguer automatiquement un **spam** d'un message légitime (**ham**), en s'appuyant sur des techniques de traitement du langage naturel (NLP) et d'apprentissage automatique.
 
 ---
 
-## 📊 Résultats
+## Résultats
 
 | Métrique | Score |
 |---|---|
@@ -21,7 +21,7 @@ Construire un classifieur capable de distinguer automatiquement un **spam** d'un
 
 ---
 
-## 🛠️ Stack technique
+## Stack technique
 
 - **Langage :** Python 3
 - **Bibliothèques :** scikit-learn, pandas, numpy, matplotlib, seaborn
@@ -30,7 +30,7 @@ Construire un classifieur capable de distinguer automatiquement un **spam** d'un
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 .
@@ -44,7 +44,7 @@ Construire un classifieur capable de distinguer automatiquement un **spam** d'un
 
 ---
 
-## 🚀 Lancer le projet
+## Lancer le projet
 
 ```bash
 # 1. Cloner le dépôt
@@ -62,7 +62,7 @@ jupyter notebook spam_classification.ipynb
 
 ---
 
-## 🔍 Aperçu du pipeline
+## Aperçu du pipeline
 
 ```
 SMS brut
@@ -77,12 +77,12 @@ Vectorisation TF-IDF
 Modèle Naive Bayes
    │
    ▼
-ham ✅ ou spam 🚨
+ham ou spam 
 ```
 
 ---
 
-## 💡 Pistes d'amélioration
+## Pistes d'amélioration
 
 - Tester d'autres algorithmes : SVM, Random Forest, Logistic Regression
 - Appliquer une lemmatisation pour normaliser les mots
